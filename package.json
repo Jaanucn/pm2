@@ -8,10 +8,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node app.js"
+    "start": "pm2-runtime start ecosystem.config --env production"
   },
   "dependencies": {
     "express": "^4.18.2"
+    "pm2": "4.2"
   },
   "engines": {
     "node": ">=14"
